@@ -24,7 +24,7 @@ Returns the current spotprice of every cryptocurrency listed on <mark> Coinbase 
 ```ruby
 let test 
 test = new Crypto_Price_Api();
-console.log(await test.getSpotPrice('LINK','EUR')); // { base: "LINK", currency: "EUR", amount: "15.4" }
+console.log(await test.getSpotPrice('LINK','EUR')); // 15.4
 ```
 
 For more advanced traders you can also get the buy and sell prices for each currency on <mark> Coinbase </mark>
@@ -38,7 +38,7 @@ Returns the current buyprice of every cryptocurrency listed on <mark> Coinbase <
 ```ruby
 let test 
 test = new Crypto_Price_Api();
-console.log(await test.getBuyPrice('LINK','EUR')); // { base: "LINK", currency: "EUR", amount: "15.50" }
+console.log(await test.getBuyPrice('LINK','EUR')); // 15.50
 ```
 
 ### getSellPrice
@@ -50,7 +50,7 @@ Returns the current buyprice of every cryptocurrency listed on <mark> Coinbase <
 ```ruby
 let test 
 test = new Crypto_Price_Api();
-console.log(await test.getSellPrice('LINK','EUR')); // { base: "LINK", currency: "EUR", amount: "15.31" }
+console.log(await test.getSellPrice('LINK','EUR')); // 15.31
 ```
 
 All supported cryptocurrencies you can see on the following [Website](https://www.coinbase.com/de/price):
