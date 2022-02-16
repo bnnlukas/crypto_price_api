@@ -9,7 +9,7 @@ Import the crypto_price_api.ts file in your personal project
 Then type in the following code in your JavaScript-File:
 
 ```ruby
-import { Crypto_Price_Api } from "./crypto_price_api.ts"
+import { CryptoPriceApi } from "./crypto_price_api.ts"
 ```
 
 ## Usage
