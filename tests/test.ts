@@ -1,4 +1,4 @@
-import { CryptoPriceApi } from '../crypto_price_api.ts'
+import { CryptoPriceApi } from '../lib/crypto_price_api.ts'
 let test 
 
 
